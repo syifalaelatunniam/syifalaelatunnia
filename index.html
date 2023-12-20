@@ -1,0 +1,134 @@
+  <!DOCTYPE html>
+<html>	
+<head>
+	<title>Home</title>
+	<style type="text/css">
+		body{
+			background-color: #5E7496;
+		}
+		#container{
+			width: 1220px;
+			height: 800%;
+			color: #fff;
+			font-size: 20px;
+			text-align: center;
+			margin: auto;
+		}
+		#header{   
+			height: 450px;
+			background-color: #5E7496;
+			background-image: url("spongebob-sponge-on-the-run-movie-review-2021 (1).jpg");
+			background-size: 100% 100%;
+			padding-top: 30px;
+		}
+		#nav ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #000;
+		}
+		#nav li{
+			float: left;
+		}
+		#nav li a{
+			display: inline-block;
+			color: #fff;
+			text-align: center;
+			padding: 17px 15px;
+			text-decoration: none;
+		}
+		#nav li a:hover{
+			background-color: yellow;
+		}
+		#content{
+			height: 835px;
+			width: 50%;
+			background-color: #3F5F90;
+			float: left;
+		}
+		#content p{
+			font-size: 20px;
+			text-align: justify;
+			padding: 5px 10px 5px 10px;
+		}
+		#sidebar{
+			height: 835px;
+			width: 50%;
+			background-color:  #3F5F90;
+			float: right;    
+		} 
+		#sidebar p{
+         	font-size: 20px;
+         	text-align: justify;
+         	padding: 5px 10px 5px 10px;
+		}
+		#sidebar img{
+			height: 200px;
+			width: 95%;
+		}
+		#footer{
+			height: 110px;
+			background-color: #000;
+			clear: both;
+			font-size: 25px;
+			padding-top: 30px;
+		}
+	</style>
+</head>
+<body>
+<div id="container">
+	<div id="header"></div>
+	<div id="nav">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li><a href="about.html">About Us</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+	<script class="Waktu">
+            var waktu = new Date();
+            var jam = waktu.getHours();
+            var tgl = waktu.getDate();
+            var bln = waktu.getMonth();
+            var thn = waktu.getFullYear();
+            var hr = waktu.getDay();
+
+            var bulan = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
+            var hari = ["Minggu","Senin","Selasa","Rabu","Kamis","Jum'at","Sabtu"];
+
+
+            if (jam >9) {
+                document.write("Selamat Pagi"+"<br>");
+            }else if (jam >12) {
+                document.write("Selamat Siang"+"<br>");
+            }else if (jam > 15) {
+                document.write("Selamat Sore"+"<br>");
+            }else{
+                document.write("Selamat Tidur"+"<br>")
+            }
+
+            document.write(hari[hr]+", "+tgl+"/"+(bulan[bln])+"/"+thn+"<br>");
+
+        </script>
+	</div>
+	<div id="content">
+		<p><b><u>Spongebob SquarPants</u></b></p>
+		<p>SpongeBob SquarePants adalah seekor spons laut berwarna kuning dan berlubang-lubang, yang tinggal dalam sebuah rumah nanas dalam laut di kota Bikini Bottom, di lautan Pasifik. Tetangganya, Squidward Tentacles, adalah seekor gurita yang tinggal dalam rumah moai. Tetangga SpongeBob lain dan teman akrabnya, Patrick Star, adalah seekor bintang laut merah muda, tinggal di bawah sebuah batu. Rumah Squidward terletak di antara rumah Spongebob dan rumah Patrick, dan inilah yang meresahkan Squidward.
+		Bikini Bottom diperlihatkan sebagai sebuah kota biasa dengan pusat dan pinggir kota, kawasan pantai, lapangan terbang, rangkaian bunga laut, dan taman hiburan sendiri. Stephen Hillenburg pernah berkata bahwa Bikini Bottom direka lebih kurang berdasarkan kota Seattle, Washington.
+		Hewan peliharaan SpongeBob adalah seekor siput laut bernama Gary, yang "mengeong" seperti kucing. Meskipun tidak banyak berbicara (kecuali dalam beberapa episode), dalam watak-watak lain, ia kelihatan mampu memahaminya. Tambahan pula, cacing laut direka layaknya anjing dan dirantai. Ubur-ubur disamakan dengan lebah; bunyi berdengung, sengatan (kejutan elektrik), dan menghasilkan "jelly" yang lezat, yang disamakan dengan madu lebah. Ikan berperan sebagai warga kota tetapi tidak dijadikan tokoh penting </p><p>SpongeBob SquarePants bekerja sebagai juru masak di Krusty Krab, sebuah restoran makanan cepat saji, di mana Squidward juga bekerja sebagai kasir. Krusty Krab dimiliki Eugene H. Krabs (Tuan Krabs). Sheldon J. Plankton adalah musuh bebuyutan Krabs yang memiliki sebuah restoran makanan cepat saji bertaraf rendah bernama Chum Bucket yang terletak berhadapan Krusty Krab. Chum Bucket seolah-olah tidak pernah dikunjungi pelanggan, dan Plankton meluangkan kebanyakan waktunya untuk merancang peralatan untuk mencuri resep burger Krabby Patty milik Tuan Krabs. Plankton hanya berhasil mencuri resep itu dalam The SpongeBob SquarePants Movie.</p>
+	</div>
+	<div id="sidebar">
+		<p>Penduduk Bikini Bottom mengendarai kapal seolah-olah mobil. SpongeBob masih belajar dalam sekolah mengemudi setelah sering sekali gagal dalam ujian mengemudi (ada 2 versi tentang ketidaklulusan ini, yaitu 58 kali (menurut episode "Drive to Tears") dan 1.000.006 kali (menurut episode "Mrs.Puff, you Fired")). Setiap pergerakan menghasilkan gelembung untuk mengingkatkan penonton bahawa cerita ini berlatarkan lautan. Namun begitu, terdapat babak-babak di mana terdapat selapisan air yang berasingan daripada air lautan (seperti adanya pantai) dan api bisa dinyalakan dalam lautan.Satu lagi kawan SpongeBob adalah Sandy Cheeks, seekor tupai yang berasal dari Texas dan tinggal di dalam kubah anti-air di Bikini Bottom. Dia diantar ke dalam lautan oleh majikan-majikannya yang berupa simpanse. Ketika di luar kubahnya, dia memakai baju seperti Astronot.</p>
+		<img src="images (2).jfif">
+		<p>Spongebob tinggal bertetangga dengan sahabatnya Patrick, seekor bintang laut; dan tetangga yang selalu memusuhinya Squidward, seekor gurita yang tidak senang bersosialisasi, memiliki sifat penggerutu, dan hobi bermain klarinet.
+		Kelucuan-kelucuan dalam cerita serial ini bersumber dari perilaku sehari-hari Spongebob yang polos, optimis, selalu ceria, dan memiliki prasangka baik terhadap siapapun.
+		Terkadang perilaku ini membawa bencana, dimanfaatkan, atau terjadi salah paham kala disatukan dengan sifat-sifat mahluk lain yang tinggal di Bikini Bottom
+		</p>
+	</div>
+	<div id="footer">
+		<p>&copy; CopyRight 2023 - Syifa Laelatunniam - 231011700459</p>
+	</div>
+</div>
+</body>
+</html>
